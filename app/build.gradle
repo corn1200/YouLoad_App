@@ -9,7 +9,8 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -31,6 +32,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'me.relex:circleindicator:1.2.2'
     // 추가작업
     implementation 'com.github.yausername.youtubedl-android:library:0.7.+'  // 깃허브에서 라이브러리 인스톨
     implementation 'com.github.yausername.youtubedl-android:ffmpeg:0.7.+' // 깃허브에서 영상-음성변환기 인스톨
