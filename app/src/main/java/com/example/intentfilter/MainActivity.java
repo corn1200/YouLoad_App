@@ -1,7 +1,6 @@
 package com.example.intentfilter;
 
 import android.os.Bundle;
-import android.view.Window;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Test
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
